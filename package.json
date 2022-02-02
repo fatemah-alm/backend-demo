@@ -1,0 +1,27 @@
+{
+  "name": "backend-demo",
+  "version": "1.0.0",
+  "description": "this is backend demo",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatemah-alm/backend-demo.git"
+  },
+  "author": "Fatima AlMomen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fatemah-alm/backend-demo/issues"
+  },
+  "homepage": "https://github.com/fatemah-alm/backend-demo#readme",
+  "dependencies": {
+    "dotenv": "^15.0.0",
+    "env": "0.0.2",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.10",
+    "nodemon": "^2.0.15"
+  }
+}
